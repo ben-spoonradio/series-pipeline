@@ -1,0 +1,42 @@
+# Audio Drama Generator - Dependencies
+
+# === Web Framework ===
+streamlit>=1.28.0
+
+# === Database ===
+# SQLite is built-in to Python
+
+# === AI/ML Services ===
+google-generativeai>=0.7.0
+openai>=1.0.0  # For future use
+
+# === Audio Processing ===
+pydub>=0.25.1
+mutagen>=1.47.0
+elevenlabs>=1.0.0  # TTS voice generation
+tqdm>=4.66.0  # Progress bars
+
+# === API Clients ===
+requests>=2.31.0
+tenacity>=8.2.3  # Retry logic
+
+# === Utilities ===
+python-dotenv>=1.0.0
+click>=8.1.7
+
+# === Language Processing ===
+langdetect>=1.0.9
+
+# === File Format Conversion ===
+python-docx>=1.0.0  # DOCX support
+pypdf>=3.17.0  # PDF support
+ebooklib>=0.18  # EPUB support
+beautifulsoup4>=4.12.0  # HTML parsing for EPUB
+striprtf>=0.0.26  # RTF support
+hwp5>=0.1.2  # HWP support (Korean Hancom)
+olefile>=0.46  # Required by hwp5
+
+# === Development ===
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
